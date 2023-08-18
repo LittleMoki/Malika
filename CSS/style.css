@@ -65,6 +65,7 @@
    border: 1px solid #4579cb;
    color: #fff;
    transition: all 0.3s ease-in-out;
+   cursor: pointer;
  }
 
  .simple__button:hover {
@@ -130,6 +131,10 @@
    gap: 15px;
  }
 
+ .main__item-text{
+  cursor: pointer;
+ }
+
  .main__buttons{
   display: flex;
   justify-content: center;
@@ -177,8 +182,8 @@
 
  .sites__application {
    flex-basis: calc(90%/6);
-   /* border: 1px solid; */
- }
+  cursor: pointer;
+  }
 
  /* fact */
  .fact__wrapper {
@@ -269,6 +274,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   cursor: pointer;
  }
 
  .gifts__card:hover {
@@ -494,6 +500,7 @@
    align-items: center;
    padding-left: 27px;
    padding-right: 33px;
+   cursor: pointer;
  }
 
  .poll__card-subtitle {
@@ -554,6 +561,7 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   cursor: pointer;
  }
 
  .award__card:hover {
@@ -642,6 +650,7 @@
    top: calc(100%/5);
    z-index: 1;
    transition: all .3s ease-in-out;
+   cursor: pointer;
  }
 
  .get__block-btn:hover {
