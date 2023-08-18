@@ -229,3 +229,17 @@
     font-size: 18px;
   }
 }
+
+@media (max-width:600px) {
+  .get__block-btn {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .get__block-item:placeholder-shown {
+    font-size: 18px;
+  }
+  .get__block-item{
+    font-size: 20px;
+  }
+}
