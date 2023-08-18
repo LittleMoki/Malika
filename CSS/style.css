@@ -126,6 +126,13 @@
    gap: 15px;
  }
 
+ .main__buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
  /* sites */
  .sites {
    display: flex;
