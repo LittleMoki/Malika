@@ -86,8 +86,12 @@
 
   .burger {
     display: flex;
-    position: relative;
     cursor: pointer;
+  }
+
+  .main__burger{
+    display: block;
+    position: relative;
   }
 
   .main__title {
